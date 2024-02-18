@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.13.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "nuxt": "^3.10.2",
+    "openai": "^4.28.0",
+    "vue": "^3.4.19",
+    "vue-router": "^4.2.5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/stylelint-module": "^5.2.0",
+    "@nuxtus/nuxt-localtunnel": "^1.0.1",
+    "@types/node-telegram-bot-api": "^0.64.2",
+    "dotenv": "^16.4.4",
+    "typescript": "^5.3.3"
+  }
+}
