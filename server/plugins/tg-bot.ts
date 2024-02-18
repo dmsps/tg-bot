@@ -12,7 +12,7 @@ export default defineNitroPlugin(nitro => {
   }
 
   const bot = new TelegramBot(API_KEY_BOT, {
-    polling: !isProduction,
+    polling: true,
     // webHook: {
     //     host: `${BASE_URL}`,
     //     port,
